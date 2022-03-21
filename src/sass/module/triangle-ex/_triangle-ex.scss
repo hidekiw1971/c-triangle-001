@@ -1,0 +1,7 @@
+@use "global" as *;
+.triangle-ex {
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}

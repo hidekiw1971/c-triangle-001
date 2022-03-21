@@ -1,0 +1,16 @@
+@use "global" as *;
+.triangle__content {
+  // expression
+  display: inline-block;
+  // size
+  width: rem(100);
+  height: rem(100);
+  // decoration
+  border-style: solid;
+  border-width: rem(200) rem(0) rem(200) rem(200);
+  border-color: transparent transparent transparent #00f;
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}

@@ -1,0 +1,16 @@
+@use "global" as *;
+.triangle-ex__content {
+  // expression
+  display: inline-block;
+  // size
+  width: rem(200);
+  height: rem(200);
+  // decoration
+  border-style: solid;
+  border-width: rem(50) rem(50) rem(50) rem(50);
+  border-color: #ff4500 #ff69b4 #ffd700 #00f;
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}
